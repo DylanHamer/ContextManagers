@@ -14,5 +14,5 @@ def hashString(text):
     yield hashObject
 
 with hashString("Hello, World!") as hashObject:
-    print(hashObject.hex_digest())
+    print(hashObject.hexdigest())
     
